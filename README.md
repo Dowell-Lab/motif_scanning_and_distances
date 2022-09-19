@@ -23,13 +23,12 @@ To perform the distance calculation we used the scripts located in distance_calc
 ```
 Example distance output:
 
-| region_id | motif_id | distance | distance_rank | quality_rank |
-| --- | --- | --- | --- | --- |
-| chr1;region_16 | chr1;motif_1 | 56 | 1 | 1 |
-| chr1;region_20 | chr1;motif_4 | 1303 | 3 | 1 |
-| chr1;region_20 | chr1;motif_5 | -742 | 1 | 3 |
-| chr1;region_20 | chr1;motif_6 | -751 | 2 | 2 |
-![image](https://user-images.githubusercontent.com/48491008/191090764-9f39f545-8e69-46f4-a035-1595d127c609.png)
+ region_id | motif_id | distance | distance_rank | quality_rank 
+ --- | --- | --- | --- | --- 
+ chr1;region_16 | chr1;motif_1 | 56 | 1 | 1 
+ chr1;region_20 | chr1;motif_4 | 1303 | 3 | 1 
+ chr1;region_20 | chr1;motif_5 | -742 | 1 | 3 
+ chr1;region_20 | chr1;motif_6 | -751 | 2 | 2 
 
 ```
 - The region_id matches the ids in the provided annotation file.
