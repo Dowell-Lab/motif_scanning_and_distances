@@ -22,10 +22,11 @@ To perform the distance calculation we used the scripts located in distance_calc
 - distance_calculation/scripts contains the sbatch scripts used to initiate the scanning processes.
 ```
 Example distance output:
-region_id	motif_id	distance	distance_rank	quality_rank
-chr1;region_20	chr1;motif_4	1303	3	1
-chr1;region_20	chr1;motif_5	-742	1	3
-chr1;region_20	chr1;motif_6	-751	2	2
+| region_id | motif_id | distance | distance_rank | quality_rank |
+| --- | --- | --- | --- | --- |
+| chr1;region_20 | chr1;motif_4 | 1303 | 3 | 1 |
+| chr1;region_20 | chr1;motif_5 | -742 | 1 | 3 |
+| chr1;region_20 | chr1;motif_6 | -751 | 2 | 2 |
 ```
 - The region_id matches the ids in the provided annotation file.
 - The motif_id matches the 6th column of the motif bedfiles for whichever TF you are looking at from fimo_scan.
