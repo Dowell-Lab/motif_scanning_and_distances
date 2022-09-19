@@ -26,7 +26,6 @@ region_id	motif_id	distance	distance_rank	quality_rank
 chr1;region_20	chr1;motif_4	1303	3	1
 chr1;region_20	chr1;motif_5	-742	1	3
 chr1;region_20	chr1;motif_6	-751	2	2
-![image](https://user-images.githubusercontent.com/48491008/191088076-c0176da1-068e-4893-952e-ff19e3f353fc.png)
 ```
 - The region_id matches the ids in the provided annotation file.
 - The motif_id matches the 6th column of the motif bedfiles for whichever TF you are looking at from fimo_scan.
