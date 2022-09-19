@@ -22,6 +22,7 @@ To perform the distance calculation we used the scripts located in distance_calc
 - distance_calculation/scripts contains the sbatch scripts used to initiate the scanning processes.
 ```
 Example distance output:
+
 | region_id | motif_id | distance | distance_rank | quality_rank |
 | --- | --- | --- | --- | --- |
 | chr1;region_20 | chr1;motif_4 | 1303 | 3 | 1 |
