@@ -20,13 +20,14 @@ To perform the distance calculation we used the scripts located in distance_calc
 - distance_calculation/bin contains the python scripts used to calculate the distances from the center of each bidirectional to the center of each motif provided. 
   * Each TF motif has its own distance table.
 - distance_calculation/scripts contains the sbatch scripts used to initiate the scanning processes.
-
+```
 Example distance output:
-region_id    motif_id    distance    distance_rank    quality_rank
-chr1;region_20    chr1;motif_4    1303    3.0    1.0
-chr1;region_20    chr1;motif_5    -742    1.0    3.0
-chr1;region_20    chr1;motif_6    -751    2.0    2.0
-
+region_id	motif_id	distance	distance_rank	quality_rank
+chr1;region_20	chr1;motif_4	1303	3	1
+chr1;region_20	chr1;motif_5	-742	1	3
+chr1;region_20	chr1;motif_6	-751	2	2
+![image](https://user-images.githubusercontent.com/48491008/191088076-c0176da1-068e-4893-952e-ff19e3f353fc.png)
+```
 - The region_id matches the ids in the provided annotation file.
 - The motif_id matches the 6th column of the motif bedfiles for whichever TF you are looking at from fimo_scan.
 - The distance is the distance from the center of the annotated region (ie the bidir) to the center of the motif for whatever TF you're looking at. All motif distances within +/-1500bp of the center of the bidirectional were calculated.
