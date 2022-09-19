@@ -24,7 +24,7 @@ To perform the distance calculation we used the scripts located in distance_calc
 Example distance output:
 
  region_id | motif_id | distance | distance_rank | quality_rank 
- --- | --- | --- | --- | --- 
+ --------- | -------- | -------- | ------------- | ------------
  chr1;region_16 | chr1;motif_1 | 56 | 1 | 1 
  chr1;region_20 | chr1;motif_4 | 1303 | 3 | 1 
  chr1;region_20 | chr1;motif_5 | -742 | 1 | 3 
