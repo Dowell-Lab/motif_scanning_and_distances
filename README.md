@@ -6,7 +6,7 @@ There are two main steps in generating the needed motif information for this pro
 2. We needed to associate these motif hits with our bidirectional information in a meaningful way. To do this we calculate the distance from the motif to the center of the bidirectional as it has been shown that the center of the bidirectional transcript colocalizes with TF motifs (doi: 10.1101/gr.225755.117).
 
 ## Motif Scanning
-To perform motif scanning we used the scripts located in fimo_scan. We used the meme suite (meme v5.0.3) to perform the scan. (Charles E. Grant, Timothy L. Bailey and William Stafford Noble, "FIMO: Scanning for occurrences of a given motif", Bioinformatics 27(7):1017-1018, 2011.)
+To perform motif scanning we used the scripts located in fimo_scan. We used the meme suite (meme v5.0.3) to perform the scan (Charles E. Grant, Timothy L. Bailey and William Stafford Noble, "FIMO: Scanning for occurrences of a given motif", Bioinformatics 27(7):1017-1018, 2011).
 - /fimo_scan/bin contains the main python script used to generate the motif bed files. This script calls fimo_scan/bin/fimo_scan.sbatch
 - /fimo_scan/files contains the motif databases and background file used.
   * The motifs used were pulled from HOCOMOCOv11
