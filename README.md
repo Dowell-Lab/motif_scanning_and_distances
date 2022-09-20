@@ -7,7 +7,7 @@ There are two main steps in generating the needed motif information for this pro
 
 ## Motif Scanning
 To perform motif scanning we used the scripts located in fimo_scan. We used the meme suite (meme v5.0.3) to perform the scan (doi: 10.1093/bioinformatics/btr064).
-- /fimo_scan/bin contains the main python script used to generate the motif bed files. This script calls fimo_scan/bin/fimo_scan.sbatch
+- /fimo_scan/bin contains the main python script used to generate the motif bed files. This python script calls /fimo_scan/bin/fimo_scan.sbatch
 - /fimo_scan/files contains the motif databases and background file used.
   * The motifs used were pulled from HOCOMOCOv11
   * The background assumption is an equal distribution of A/T/C/G
