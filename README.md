@@ -1,5 +1,5 @@
 # Motif scanning and distances
-The code used to generate the motif information using in the DBNascent repository paper for TRN TF anchoring.
+The code used to generate the motif information used in the DBNascent repository paper for TRN TF anchoring.
 
 There are two main steps in generating the needed motif information for this project.
 1. We needed to scan the whole genome for all motif instances in a given motif database.
