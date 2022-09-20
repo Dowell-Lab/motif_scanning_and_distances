@@ -16,10 +16,10 @@ To perform motif scanning we used the scripts located in fimo_scan. We used the 
 
 ## Distance Calculation
 To perform the distance calculation we used the scripts located in distance_calculation.
-- distance_calculation/split_master_eRNA_file_and_recombine_distances.ipynb was used to first split the master eRNA files for both hg38 and mm10 into 10 separate, smaller bed files that were more practical to work with. It was then used again after completing the distance calculation to re-combine the distance_calculation output.
-- distance_calculation/bin contains the python scripts used to calculate the distances from the center of each bidirectional to the center of each motif provided. 
+- /distance_calculation/split_master_eRNA_file_and_recombine_distances.ipynb was used to first split the master eRNA files for both hg38 and mm10 into 10 separate, smaller bed files that were more practical to work with. It was then used again after completing the distance calculation to re-combine the distance_calculation output.
+- /distance_calculation/bin contains the python scripts used to calculate the distances from the center of each bidirectional to the center of each motif provided. 
   * Each TF motif has its own distance table.
-- distance_calculation/scripts contains the sbatch scripts used to initiate the scanning processes.
+- /distance_calculation/scripts contains the sbatch scripts used to initiate the scanning processes.
 ```
 Example distance output:
 
